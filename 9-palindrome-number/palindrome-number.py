@@ -5,8 +5,5 @@ class Solution:
         if x < 0:
             return False
         else:
-            if x_string == x_reverse:
-                return True
-            else:
-                return False
+            return x_string == x_reverse
         
